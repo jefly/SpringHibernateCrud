@@ -40,9 +40,8 @@ public class TeacherServiceImpl implements TeacherService{
 		}
 	}
 	
-	public void deleteTeacher(Teacher teacher) {
-		// TODO Auto-generated method stub
-		
+	public void deleteTeacher(int id) {
+		dao.deleteTeacher(id);
 	}
 
 }
