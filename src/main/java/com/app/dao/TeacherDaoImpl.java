@@ -25,6 +25,10 @@ public class TeacherDaoImpl extends AbstractDao<Teacher, Integer> implements Tea
 	public void saveTeacher(Teacher teacher) {
 		persist(teacher);
 	}
+	
+	public void updateTeacher(Teacher teacher){
+		
+	}
 
 	public void deleteTeacher(int id) {
 		

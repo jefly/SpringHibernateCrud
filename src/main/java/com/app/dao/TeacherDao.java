@@ -12,5 +12,7 @@ public interface TeacherDao {
 	
 	void saveTeacher(Teacher teacher);
 	
+	void updateTeacher(Teacher teacher);
+	
 	void deleteTeacher(int id);
 }
