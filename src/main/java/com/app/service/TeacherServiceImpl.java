@@ -29,6 +29,10 @@ public class TeacherServiceImpl implements TeacherService{
 		
 	}
 
+	public void updateTeacher(Teacher teacher){
+		
+	}
+	
 	public void deleteTeacher(Teacher teacher) {
 		// TODO Auto-generated method stub
 		

@@ -12,5 +12,7 @@ public interface TeacherService {
 	
 	void saveTeacher(Teacher teacher);
 	
+	void updateTeacher(Teacher teacher);
+	
 	void deleteTeacher(Teacher teacher);
 }
