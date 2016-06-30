@@ -15,18 +15,15 @@ public class TeacherServiceImpl implements TeacherService{
 	private TeacherDao dao;
 	
 	public Teacher findTeacher(int id) {
-		// TODO Auto-generated method stub
-		return null;
+		return dao.findTeacher(id);
 	}
 
 	public List<Teacher> getAllTeachers() {
-		// TODO Auto-generated method stub
-		return null;
+		return dao.getAllTeachers();
 	}
 
 	public void saveTeacher(Teacher teacher) {
-		// TODO Auto-generated method stub
-		
+		dao.saveTeacher(teacher);
 	}
 
 	public void updateTeacher(Teacher teacher){
