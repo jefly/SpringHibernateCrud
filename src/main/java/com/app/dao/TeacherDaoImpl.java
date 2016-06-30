@@ -26,10 +26,6 @@ public class TeacherDaoImpl extends AbstractDao<Teacher, Integer> implements Tea
 		persist(teacher);
 	}
 	
-	public void updateTeacher(Teacher teacher){
-		
-	}
-
 	public void deleteTeacher(int id) {
 		
 		Query query = getSession().createSQLQuery("delete from Teacher where id = :id ");

@@ -31,6 +31,13 @@ public class TeacherServiceImpl implements TeacherService{
 
 	public void updateTeacher(Teacher teacher){
 		
+		Teacher entity = findTeacher(teacher.getId());
+		
+		if(entity != null){
+			
+			entity.setName(teacher.getName());
+			entity.setSubjects(teacher.getSubjects());
+		}
 	}
 	
 	public void deleteTeacher(Teacher teacher) {
