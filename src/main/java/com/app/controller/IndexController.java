@@ -23,7 +23,7 @@ public class IndexController {
 		
 		List<Teacher> teachers = teacherService.getAllTeachers();
 		model.addAttribute("teachers", teachers);
-		return "teachers";
+		return "allteachers";
 	}
 	
 	@RequestMapping(value = {"/new"}, method = RequestMethod.GET)
